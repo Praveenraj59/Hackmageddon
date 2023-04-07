@@ -97,14 +97,14 @@ body {
 
 input[type=text],[type=email]{
     height: 45px;
-    width: 500px;
+    width: 600px;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
 }
 
 .message{
-    width: 500px;
+    width: 600px;
     padding: 15px;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bolder;
@@ -113,7 +113,7 @@ input[type=text],[type=email]{
 .sub{
     background-color: rgba(72, 82, 100, 0.396);
     height: 45px;
-    width: 500px;
+    width: 600px;
     font-weight: bolder;
 }
 .sub:hover{
