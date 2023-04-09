@@ -5,12 +5,12 @@
 }
 .brand {
     font-weight: 700;
-    font-size: 20px
+    font-size: 30px;
 }
 
 .site-header {
     position: relative;
-    background-color:#d0d6e0;
+    background-color:#73b0cd;
 }
 
 .site-header__wrapper {
@@ -80,8 +80,37 @@ a {
 body {
     font-family: roboto,sans-serif;
     list-style: none;
+    background-color: #eeecec;
 }
 
+#home {
+    height: 90%;
+    width: 90%;
+    color: #3d7c98;
+}
+
+#home h1{
+    position: absolute;
+    top: 50%;
+    left: 48%;
+}
+
+#about {
+    height: 90%;
+    width: 90%;
+}
+#about h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 20%;
+}
+
+#about p{
+    display: flex;
+    justify-content: center;
+    padding: 2%;
+    font-size: x-large;
+}
 .con{
     display: flex;
     justify-content: center;
@@ -115,14 +144,15 @@ input[type=text],[type=email]{
 }
 
 .sub{
-    background-color: rgba(72, 82, 100, 0.396);
+    background-color: #3d7d98d1;
     height: 45px;
     width: 600px;
     font-weight: bolder;
     border-radius: 7px;
+    cursor: pointer;
 }
 .sub:hover{
-    background-color: rgba(72, 82, 100, 0.833);
+    background-color:  #3d7c98;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bolder;
 }
