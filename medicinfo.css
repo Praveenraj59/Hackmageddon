@@ -1,7 +1,7 @@
 *{
     margin: 0%;
     padding: 0%;
-    list-style: none;
+ 
 }
 .brand {
     font-weight: 700;
@@ -35,10 +35,7 @@ a {
     color: #222;   
 }
 
-body {
-    font-family: roboto,sans-serif;
-    list-style: none;
-}
+
 .search{
     
     position: absolute;
@@ -131,7 +128,7 @@ nav ul li a{
 }
 nav ul li a:hover,
 nav ul li label:hover{
-  color: rgb(8, 8, 8);
+  color: cyan;
 }
 nav ul ul{
   position: static;
@@ -157,4 +154,10 @@ nav ul li span.rotate{
 }
 input{
   display: none;
+}
+
+.form h1{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
 }
