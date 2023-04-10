@@ -152,9 +152,7 @@ nav ul li span{
 nav ul li span.rotate{
   transform: rotate(-180deg);
 }
-input{
-  display: none;
-}
+
 
 .form h1{
     display: flex;
