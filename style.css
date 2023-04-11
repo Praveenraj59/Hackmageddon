@@ -6,11 +6,12 @@
 .brand {
     font-weight: 700;
     font-size: 30px;
+    color: #fbfbfb;
 }
 
 .site-header {
     position: relative;
-    background-color:#73b0cd;
+    background-color:#34495E;
 }
 
 .site-header__wrapper {
@@ -18,11 +19,11 @@
     justify-content: space-between;
     align-items: center;
     padding-top: 1rem;
-    padding-bottom: 1rem
+    padding-bottom: 1rem;
 }
 
 .nav__wrapper {
-        display:flex
+        display:flex;
  }
 
 
@@ -74,7 +75,7 @@
 
 a {
     text-decoration: none;
-    color: #222;   
+    color: #fbfbfb;
 }
 
 body {
@@ -86,7 +87,7 @@ body {
 #home {
     height: 90%;
     width: 90%;
-    color: #3d7c98;
+
 }
 
 #home h1{
@@ -144,16 +145,18 @@ input[type=text],[type=email]{
 }
 
 .sub{
-    background-color: #3d7d98d1;
+    background-color: #26be92;
+    color: white;
     height: 45px;
     width: 600px;
-    font-weight: bolder;
+    font-weight: bold;
+    font-size: large;
     border-radius: 7px;
     cursor: pointer;
+    border: none;
 }
 .sub:hover{
-    background-color:  #3d7c98;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-weight: bolder;
+    background-color:  #19be90;
+   
 }
 
