@@ -5,12 +5,13 @@
 }
 .brand {
     font-weight: 700;
-    font-size: 30px
+    font-size: 30px;
+    color: #fbfbfb;
 }
 
 .site-header {
     position: relative;
-    background-color:#d0d6e0;
+    background-color:#34495E;
     height: 70px;
 }
 
@@ -153,7 +154,9 @@ nav ul li span.rotate{
   transform: rotate(-180deg);
 }
 
-
+.inp{
+  display: none;
+}
 .form h1{
     display: flex;
     justify-content: center;

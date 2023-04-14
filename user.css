@@ -39,6 +39,8 @@ a {
 body {
     font-family: roboto,sans-serif;
     list-style: none;
+    background-color: #eeecec;
+
 }
 .search{
     
@@ -52,6 +54,8 @@ button[type=submit]{
     margin-bottom: 5%;
     border-radius: 7px;
     font-weight: bolder;
+    background-color: #3c75ae5e;
+    cursor: pointer;
 }
 .dash{ 
     float: right;
