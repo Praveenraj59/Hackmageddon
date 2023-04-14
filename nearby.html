@@ -8,22 +8,47 @@
     <link rel="stylesheet" href="nearby.css">
 </head>
 <body>
-    <!--- Navbar --->
-<div class="site-header">
+
+  <!--- Navbar --->
+  <div class="site-header">
     <div class="wrapper site-header__wrapper">
       <div class="site-header__start">
         <a href="#" class="brand">Viatacare</a>
       </div>
-      <div class="site-header__end">
-        <a href="#">Dashboard</a>
-      </div>
-    </div>
-</div>
+      <nav>
+        <label for="btn" class="button"><img src="img/dashpic.webp" alt="pic" class="dash">
+        <span class="fas fa-caret-down"></span>
+        </label>
+        <input class="inp" type="checkbox" id="btn">
+        <ul class="menu">
+           <li><a href="medicinfo.html">Medical info</a></li>
+           <li>
+              <label for="btn-3" class="second">Medical History
+             <span class="fas fa-caret-down"></span>
+             </label>
+          </li>
+          <li><a href="#">Membership</a></li>
+          <li><a href="index.html">Logout</a></li>
+        </ul>
+     </nav>
+   </div>
+  </div>
 
-<!--map-->
-<input class="sbar" type="search">
-<div class="map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15541.594136639598!2d80.2209766!3d13.137242849999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1680956568664!5m2!1sen!2sin" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-</div>
+  <div class="sel-hos">
+    <form action="" onsubmit="takevalue()" >
+      <label>Select your Hospital: </label>
+      <input class="hosp" id="Hospital" list="hos">
+      <datalist id="hos">
+          <option value="hos1" />
+          <option value="hos2" />
+          <option value="hos3" />
+          <option value="hos4" />
+          <option value="hos5" />
+      </datalist>
+      <input type="submit" id="subm" value= "signup">
+  </form>
+  </div>
+
+  <script src="nearby.js"></script>
 </body>
 </html>

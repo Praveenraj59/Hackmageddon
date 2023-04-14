@@ -9,12 +9,12 @@ function validateForm() {
       alert("Please enter a password.");
       return false;
   }
-}
-function validateForm1() {
-  var username = document.getElementById("username").value;
+}/*
+function validateForm() {
+  var name = document.getElementById("Username").value;
   var tel = document.getElementById("tel").value;
   var email = document.getElementById("email").value;
-  var password = document.getElementById("password").value;
+  var pass = document.getElementById("Password").value;
   if (username == "") {
       alert("Please enter a Username.");
       return false;
@@ -31,7 +31,7 @@ function validateForm1() {
       alert("Please enter a password.");
       return false;
   }
-}
+}*/
 
 const sign_in_btn = document.querySelector("#sign-in-btn");
 const sign_up_btn = document.querySelector("#sign-up-btn");

@@ -53,7 +53,7 @@ button[type=submit]{
     border-radius: 7px;
     font-weight: bolder;
 }
-.dash{
+.dash{ 
     float: right;
     border-radius: 15%;
     height: 5%;
