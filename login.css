@@ -51,17 +51,6 @@ form {
   grid-row: 1 / 2;
 }
 
-.content1{
-  position: absolute;
-  top: 35%;
-  left: 15%;
-  color: #fff;
-  font-size: large;
-}
-.content1 h1{
-  font-size: xx-large;
-  font-weight: 600;
-}
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
@@ -179,12 +168,12 @@ form.sign-in-form {
 
 .left-panel {
   pointer-events: all;
-  padding: 3rem 17% 2rem 12%;
+  padding: 10rem 40% 2rem 12%;
 }
 
 .right-panel {
   pointer-events: none;
-  padding: 3rem 12% 2rem 17%;
+  padding: 10rem 25% 2rem 17%;
 }
 
 .panel .content {
@@ -370,7 +359,7 @@ form.sign-in-form {
     display: none;
   }
   .panel .content {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 0.2rem;
   }
   .container {
     padding: 1.5rem;
