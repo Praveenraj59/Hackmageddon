@@ -51,6 +51,17 @@ form {
   grid-row: 1 / 2;
 }
 
+.content1{
+  position: absolute;
+  top: 35%;
+  left: 15%;
+  color: #fff;
+  font-size: large;
+}
+.content1 h1{
+  font-size: xx-large;
+  font-weight: 600;
+}
 form.sign-up-form {
   opacity: 0;
   z-index: 1;
