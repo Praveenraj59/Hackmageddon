@@ -7,7 +7,7 @@
       src="https://kit.fontawesome.com/64d58efce2.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="login.css" />
+    <link rel="stylesheet" href="static/login.css" />
     <title>Login</title>
   </head>
   <body>
@@ -16,42 +16,42 @@
         <div class="signin-signup">
 
           <!--- Signin --->
-          <form action="user.html" onsubmit="return validateForm()" class="sign-in-form">
+          <form action='/' method="POST" class="sign-in-form">
             <h2 class="title">Sign in</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" id="username" placeholder="Username" />
+              <input type="text" name="email" id="username" placeholder="Email" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" id="password" placeholder="Password" />
+              <input type="password" name="password" id="password" placeholder="Password" />
             </div>
             <input type="submit" value="Login" class="btn solid" />
           </form>
           
           <!--- Signup --->
-          <form action="user.html"  class="sign-up-form">
+          <form action="/" method="POST" class="sign-up-form">
             <h2 class="title">Sign up</h2>
             <div class="input-field">
               <i class="fas fa-user"></i>
-              <input type="text" id="username" placeholder="Username" />
+              <input type="text" name="name" id="username" placeholder="Username" />
             </div> 
 			<div class="input-field">
 				<i class="fas fa-phone-alt"></i>
-				<input type="tel" id="tel" placeholder="Phone no" />
+				<input type="tel" name="contact" id="tel" placeholder="Phone no" />
 			  </div>
             <div class="input-field">
               <i class="fas fa-envelope"></i>
-              <input type="email" id="email" placeholder="Email" />
+              <input type="email" name="mail" id="email" placeholder="Email" />
             </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
-              <input type="password" id="password" placeholder="Password" />
+              <input type="password" name="password" id="password" placeholder="Password" />
             </div>
-			<div class="input-field">
+			<!--<div class="input-field">
 				<i class="fas fa-lock"></i>
 				<input type="password" id="pass" placeholder="Confirm Password" />
-			  </div>
+			  </div>-->
             <input type="submit" class="btn" value="Sign up" />
           </form>
         </div>
@@ -83,6 +83,6 @@
       </div>
     </div>
 
-    <script src="login.js"></script>
+    <script src="static/login.js"></script>
   </body>
 </html>
